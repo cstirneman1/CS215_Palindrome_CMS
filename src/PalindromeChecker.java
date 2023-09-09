@@ -14,7 +14,7 @@ public class PalindromeChecker {
 	 */
 	public static boolean isPalindrome(String string) {
 		//makes the string all lowercase and removes spaces
-		string = string.replaceAll("\\s+","".toLowerCase());
+		string = string.replaceAll("\\s+","").toLowerCase();
 		
 		Stack<Character> stack = new Stack<>();//creating an empty stack that will hold characters
 		int length = string.length();//length of the string in charcaters
