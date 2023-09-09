@@ -39,7 +39,7 @@ public class Application extends PalindromeChecker{
 			System.out.println("Thank you! Closing program."); //prints if user enters 2. closes program
 			quitFlag =+ 2;
 		}
-		else if (!palindrome.equals("1")||!palindrome.equals("2")) {
+		if (!palindrome.equals("1") && !palindrome.equals("2")) {
 			System.out.println("That is not a valid input. Closing Program!");
 			quitFlag =+2;
 		}
